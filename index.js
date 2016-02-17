@@ -1,10 +1,10 @@
 import React from 'react';
 import d3 from 'd3';
-import nv from 'nvd3';
+import nv from 'vendor/nvd3/build/nv.d3.js';
 import {pick, without} from './utils.js'
 
 let SETTINGS = ['x', 'y', 'type', 'datum', 'configure', 'tooltip', 'legend'];
-let AXIS_NAMES = ['xAxis', 'yAxis','y1Axis', 'y2Axis','y3Axis' , 'y4Axis', 'x2Axis'];
+let AXIS_NAMES = ['xAxis', 'yAxis','y1Axis', 'y2Axis','y3Axis' , 'y4Axis', 'x2Axis', 'yAxis1'];
 let SIZE = ['width', 'height'];
 let MARGIN = 'margin';
 let LEGEND = 'legend';
