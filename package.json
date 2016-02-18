@@ -10,18 +10,18 @@
     "reusable",
     "chart"
   ],
-  "homepage": "https://github.com/NuCivic/react-nvd3",
+  "homepage": "https://github.com/bevspot/react-nvd3",
   "author": {
-    "name": "Mariano Carballal",
-    "email": "marianocarballal@gmail.com",
-    "url": "https://github.com/topicus"
+    "name": "Drew Proud",
+    "email": "drew@bevspot.com",
+    "url": "https://github.com/bevspot"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:NuCivic/react-nvd3.git"
+    "url": "git@github.com:bevspot/react-nvd3.git"
   },
   "bugs": {
-    "url": "https://github.com/NuCivic/react-nvd3/issues"
+    "url": "https://github.com/bevspot/react-nvd3/issues"
   },
   "license": "MIT",
   "engines": {
