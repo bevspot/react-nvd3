@@ -109,13 +109,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	var SETTINGS = ['x', 'y', 'type', 'datum', 'configure', 'tooltip', 'legend'];
-	var AXIS_NAMES = ['xAxis', 'yAxis', 'y1Axis', 'y2Axis', 'y3Axis', 'y4Axis', 'x2Axis'];
+	var AXIS_NAMES = ['xAxis', 'yAxis', 'y1Axis', 'y2Axis', 'y3Axis', 'y4Axis', 'x2Axis', 'yAxis1'];
 	var SIZE = ['width', 'height'];
 	var MARGIN = 'margin';
 	var LEGEND = 'legend';
 	var TOOLTIP = 'tooltip';
 
-	var NVD3Chart = (function (_React$Component) {
+	var NVD3Chart = function (_React$Component) {
 	  (0, _inherits3.default)(NVD3Chart, _React$Component);
 
 	  function NVD3Chart() {
@@ -125,6 +125,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  (0, _createClass3.default)(NVD3Chart, [{
 	    key: 'componentDidMount',
+
 
 	    /**
 	     * Instantiate a new chart setting
@@ -273,9 +274,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	  }]);
 	  return NVD3Chart;
-	})(_react2.default.Component);
+	}(_react2.default.Component);
 
 	// Babel 6 issue: http://stackoverflow.com/questions/33505992/babel-6-changes-how-it-exports-default
+
 
 	exports.default = NVD3Chart;
 	module.exports = NVD3Chart;
@@ -1073,19 +1075,21 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	"use strict";
 
+	exports.__esModule = true;
+
 	exports.default = function (instance, Constructor) {
 	  if (!(instance instanceof Constructor)) {
 	    throw new TypeError("Cannot call a class as a function");
 	  }
 	};
 
-	exports.__esModule = true;
-
 /***/ },
 /* 47 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
+
+	exports.__esModule = true;
 
 	var _defineProperty = __webpack_require__(48);
 
@@ -1111,8 +1115,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	  };
 	})();
 
-	exports.__esModule = true;
-
 /***/ },
 /* 48 */
 /***/ function(module, exports, __webpack_require__) {
@@ -1134,6 +1136,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	"use strict";
 
+	exports.__esModule = true;
+
 	var _typeof2 = __webpack_require__(21);
 
 	var _typeof3 = _interopRequireDefault(_typeof2);
@@ -1147,8 +1151,6 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  return call && ((typeof call === "undefined" ? "undefined" : (0, _typeof3.default)(call)) === "object" || typeof call === "function") ? call : self;
 	};
-
-	exports.__esModule = true;
 
 /***/ },
 /* 51 */
@@ -1272,15 +1274,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
+
+	var _keys = __webpack_require__(17);
+
+	var _keys2 = _interopRequireDefault(_keys);
+
 	exports.includes = includes;
 	exports.negate = negate;
 	exports.filterObject = filterObject;
 	exports.pick = pick;
 	exports.without = without;
-
-	var _keys = __webpack_require__(17);
-
-	var _keys2 = _interopRequireDefault(_keys);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
