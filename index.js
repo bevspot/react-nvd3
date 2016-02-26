@@ -1,6 +1,6 @@
 import React from 'react';
 import d3 from 'd3';
-import nv from 'bevspot-react-nvd3';
+import nv from 'bevspot-nvd3';
 import {pick, without} from './utils.js'
 
 let SETTINGS = ['x', 'y', 'type', 'datum', 'configure', 'tooltip', 'legend'];
