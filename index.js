@@ -16,6 +16,8 @@ export default class NVD3Chart extends React.Component {
     configure: React.PropTypes.func
   }
 
+  myRefs = {};
+
   /**
    * Instantiate a new chart setting
    * a callback if exists
@@ -59,7 +61,7 @@ export default class NVD3Chart extends React.Component {
       !this.props.configure || this.props.configure(this.chart);
 
       // Render chart using d3
-      d3.select(this.refs.svg)
+      d3.select(this.myRefs.svg)
         .datum(this.props.datum)
         .call(this.chart);
 
@@ -135,8 +137,8 @@ export default class NVD3Chart extends React.Component {
    */
   render() {
     return (
-      <div ref="root" className="nv-chart">
-        <svg ref="svg" {...pick(this.props, SIZE)}></svg>
+      <div ref={ (instance) => { this.myRefs.root = instance; } } className="nv-chart">
+        <svg ref={ (instance) => { this.myRefs.svg = instance; } } {...pick(this.props, SIZE)}></svg>
       </div>
     );
   }
