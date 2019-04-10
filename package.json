@@ -1,7 +1,7 @@
 {
-  "name": "bevspot-react-nvd3",
+  "name": "bevspot-react-nvd3-hack",
   "description": "React nvd3 reusable graph components.",
-  "version": "0.4.4",
+  "version": "0.4.5",
   "keywords": [
     "React",
     "D3",
